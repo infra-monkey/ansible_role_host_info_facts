@@ -7,7 +7,7 @@ on:
     branches: [main]
 defaults:
   run:
-    working-directory: 'role_name'
+    working-directory: 'host_info_facts'
 jobs:
   molecule-check:
     runs-on: ubuntu-latest
@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          path: 'role_name'
+          path: 'host_info_facts'
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:

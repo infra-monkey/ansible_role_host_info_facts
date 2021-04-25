@@ -4,4 +4,4 @@
   connection: local
   become: true
   roles:
-    - role: "infra_monkey.role_name"
+    - role: "infra_monkey.host_info_facts"

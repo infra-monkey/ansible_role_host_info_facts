@@ -1,12 +1,13 @@
 ---
 galaxy_info:
-  role_name: role_backup
+  role_name: host_info_facts
   namespace: infra_monkey
   author: Antoine Gatineau
-  description: Role description
+  description: Set ansible host-info facts
   company: Infra-Monkey
   license: Apache-2.0
-  min_ansible_version: 2.7
+
+  min_ansible_version: 2.10
   platforms:
     - name: EL
       versions:
