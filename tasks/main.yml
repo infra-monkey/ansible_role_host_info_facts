@@ -14,4 +14,8 @@
     owner: 'root'
     group: 'root'
     mode: '0644'
+
+- name: "Reload Custom Facts"
+  setup:
+    gather_subset: "local"
 ...
