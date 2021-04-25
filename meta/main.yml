@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  role_name: role_backup
+  namespace: infra_monkey
+  author: Antoine Gatineau
+  description: Role description
+  company: Infra-Monkey
+  license: Apache-2.0
+  min_ansible_version: 2.7
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 8
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+  galaxy_tags: []
+dependencies: []
+...
