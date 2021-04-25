@@ -6,7 +6,7 @@ This role requires root permissions. It must be called as root. This needs to be
 
 | Name  | Type | Required | Default Value | Description |
 | ----- | ---- | -------- | ------------- | ----------- |
-| var | booltypeean | no | n.a. | desqcription |
+| var | type | no | n.a. | description |
 
 # Automatique Testing
 
