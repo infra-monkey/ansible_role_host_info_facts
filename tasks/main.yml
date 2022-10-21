@@ -16,6 +16,5 @@
     mode: '0644'
 
 - name: "Reload Custom Facts"
-  setup:
+  ansible.builtin.setup:
     gather_subset: "local"
-...
