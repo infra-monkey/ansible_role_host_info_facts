@@ -5,13 +5,7 @@ name: Release
       - '*'
 
 jobs:
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      - name: galaxy
-        uses: robertdebock/galaxy-action@1.1.1
-        with:
-          galaxy_api_key: ${{ secrets.GALAXY_API_KEY }}
+  call-workflow-release:
+    uses: infra-monkey/reuseable_workflows/.github/workflows/ansible_role_release.yml@main
+    secrets:
+      GALAXY_API_KEY: ${{ secrets.GALAXY_API_KEY }}
