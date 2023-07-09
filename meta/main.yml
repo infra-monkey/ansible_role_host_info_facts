@@ -19,5 +19,6 @@ galaxy_info:
         - stretch
         - buster
         - bullseye
+        - bookworm
   galaxy_tags: []
 dependencies: []
