@@ -29,7 +29,7 @@ The facts can then be used in other roles or plays.
 This role is tested using Molecule against:
 - Python 3.7, 3.8 and 3.9
 - CentOS 7/8/9
-- Debian 9/10/11
+- Debian 9/10/11/12
 
 # Facts
 > Minimal facts are used in this role. This allows to get the Red Hat release number.

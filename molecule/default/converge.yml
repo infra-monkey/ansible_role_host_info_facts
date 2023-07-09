@@ -1,7 +1,8 @@
 ---
 - name: Converge
   hosts: all
-  connection: local
-  become: true
+  become: yes
+  gather_facts: yes
+
   roles:
-    - role: "infra_monkey.host_info_facts"
+    - role: ansible_role_host_info_facts
